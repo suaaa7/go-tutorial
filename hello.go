@@ -1,9 +1,9 @@
 package main
 
 import (
+	"errors"
 	f "fmt"
 	. "strings"
-	"errors"
 )
 
 func div(i int, j int) (result int, err error) {
